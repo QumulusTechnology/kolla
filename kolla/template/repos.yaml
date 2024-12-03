@@ -21,7 +21,7 @@ centos-aarch64:
   ceph: "centos-ceph-reef"
   crb: "crb"
   epel: "epel"
-  erlang: "copr-hrw-erlang-for-rabbitmq"
+  erlang: "copr-rabbitmq-erlang"
   extras: "extras"
   fluentd: "fluent-package-lts"
   grafana: "grafana"
@@ -80,7 +80,7 @@ debian:
     component: ""
     gpg_key: "proxysql.asc"
   rabbitmq:
-    url: "https://ppa1.novemberain.com/rabbitmq/rabbitmq-server/deb/debian"
+    url: "https://ppa1.rabbitmq.com/rabbitmq/rabbitmq-server/deb/debian"
     suite: "bullseye"
     component: "main"
     gpg_key: "rabbitmq.gpg"
@@ -127,7 +127,7 @@ debian-aarch64:
     component: ""
     gpg_key: "proxysql.asc"
   rabbitmq:
-    url: "https://ppa1.novemberain.com/rabbitmq/rabbitmq-server/deb/debian"
+    url: "https://ppa1.rabbitmq.com/rabbitmq/rabbitmq-server/deb/debian"
     suite: "bullseye"
     component: "main"
     # NOTE(mnasiadka): Since rabbitmq is really noarch and community mirror is not
@@ -157,7 +157,7 @@ rocky-aarch64:
   ceph: "centos-ceph-reef"
   crb: "crb"
   epel: "epel"
-  erlang: "copr-hrw-erlang-for-rabbitmq"
+  erlang: "copr-rabbitmq-erlang"
   extras: "extras"
   fluentd: "fluent-package-lts"
   grafana: "grafana"
@@ -213,7 +213,7 @@ ubuntu:
     component: ""
     gpg_key: "proxysql.asc"
   rabbitmq:
-    url: "https://ppa1.novemberain.com/rabbitmq/rabbitmq-server/deb/ubuntu"
+    url: "https://ppa1.rabbitmq.com/rabbitmq/rabbitmq-server/deb/ubuntu"
     suite: "jammy"
     component: "main"
     gpg_key: "rabbitmq.gpg"
@@ -260,7 +260,7 @@ ubuntu-aarch64:
     component: ""
     gpg_key: "proxysql.asc"
   rabbitmq:
-    url: "https://ppa1.novemberain.com/rabbitmq/rabbitmq-server/deb/ubuntu"
+    url: "https://ppa1.rabbitmq.com/rabbitmq/rabbitmq-server/deb/ubuntu"
     suite: "jammy"
     component: "main"
     arch: "amd64"
